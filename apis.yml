@@ -1,7 +1,28 @@
 aid: bux
 name: BUX
-description: 'BUX is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  BUX is a European neobroker and mobile-first investing app operated by BUX B.V., a
+  subsidiary of ABN AMRO. It lets retail investors across Europe buy and sell individual
+  stocks and ETFs commission-free starting from as little as EUR 10, build automated BUX
+  Investment Plans (thematic and expert-built portfolios), and earn interest on uninvested
+  cash across BUX Basic, Plus, and Prime account tiers. BUX is authorised and regulated by
+  the Dutch Authority for the Financial Markets (AFM), with client financial instruments and
+  money held in segregated custody via ABN AMRO Clearing and deposits protected up to EUR
+  100,000 under the Dutch Deposit Guarantee Scheme. BUX does not publish a public developer
+  API or SDKs; this profile captures the company's identity, legal, and security posture for
+  the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bux.com/wp-content/uploads/2026/03/BUX-2166_SimplifiedGraph_16x9-scaled.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bux/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +32,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Investing
+- Neobroker
+- Brokerage
+- Stocks
+- ETF
+- Europe
+- Wealth Management
 apis: []
+common:
+- type: Website
+  url: https://bux.com/
+- type: Support
+  url: https://support.bux.com/
+- type: Pricing
+  url: https://bux.com/fees/
+- type: TermsOfService
+  url: https://bux.com/documents/BUX-Client-Agreement-EN.pdf
+- type: PrivacyPolicy
+  url: https://docs.bux.com/legal/20241216-BUX-By-ABN-Privacy-Notice-EN.docx.pdf
+- type: Security
+  url: https://bux.com/bux-security/
+- type: VulnerabilityDisclosure
+  url: https://hackerone.com/abn_amro_vdp
+- type: DomainSecurity
+  url: security/bux-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
